@@ -1,0 +1,95 @@
+body {
+    background-color: cornsilk;
+    color: dimgray;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+
+}
+body section {
+    font-family: 'Wingdings 2', serif;
+}
+
+/* styling header */
+header {
+    text-align: center;
+    background-color: saddlebrown;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+/* styling header image */
+.header-image {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-family: 'Algerian', serif;/*font 1*/
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'Vladimir Script', serif;/*font 2*/
+}
+
+/* styling Lyrics Section */
+section.lyrics {
+    padding: 20px;
+    margin: 40px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    font-size: 1.2em;
+    font-family: 'Lora', serif;
+    color: gray;
+}
+
+section.lyrics p {
+    text-align: center;
+    line-height: 1.8;
+}
+
+/* styling Video Section */
+section.video {
+    text-align: center;
+    margin-top: 40px;
+}
+
+section.video h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;/*font 3*/
+}
+
+/* styling Footer */
+footer {
+    text-align: center;
+    background-color: #8b4513;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+/*styling footer image */
+.footer-image {
+    width: 100px;
+    height: 10%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #fdf5e6;
+}
